@@ -1,13 +1,8 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* This app uses Ruby 2.0
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
+* For browsers that don't support pushState, a Backbone app can break unless we implement the hashChange option and set it to false.
 
 * Configuration
 

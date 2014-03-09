@@ -4,6 +4,8 @@ window.ScratchPad =
   Views: {}
   Routers: {}
   initialize: -> 
+    new @Routers.ScratchPadRouter
+    Backbone.history.start(pushState: true, hashChange: false)
 
 
 window.App = window.ScratchPad
