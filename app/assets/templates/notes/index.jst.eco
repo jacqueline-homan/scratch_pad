@@ -3,7 +3,7 @@
     <li>
       <dl>
       	<dt>Title</dt>
-      	<dd><a href ="/notes/<%= note.id %>"><%= note.title %></a></dd>
+      	<dd><a href="/notes/<%= note.id %>"><%= note.title %></a></dd>
       	<dt>Content</dt>
       	<dd><%= note.content %></dd>
       </dl>

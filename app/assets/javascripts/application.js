@@ -16,8 +16,7 @@
 //= require backbone
 //= require scratch_pad
 //= require_tree ../templates
-//= require_tree ./models
-//= require_tree ./collections
-//= require_tree ./views
 //= require_tree ./routers
+//= require notes
+//= require scratch_pad
 //= require_tree .
